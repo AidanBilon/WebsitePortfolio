@@ -31,7 +31,7 @@ const webd = () => {
               title='Website Portfolio' 
               image={webfront} 
               url='/#home' 
-              descr='Next.js Tailwind CSS'
+              descr='Relevant Project'
             />
           </div>
           <div className='col-span-2 py-16 grid md:grid-cols-2 gap-8'>

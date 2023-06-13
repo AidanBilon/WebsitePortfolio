@@ -32,7 +32,7 @@ const ios = () => {
               title='Blur' 
               image={flut} 
               url='/blur' 
-              descr='WIP IOS/Android Application (Flutter & Firebase)'
+              descr='Relevant Project'
             />
           </div>
           <div className='col-span-2 py-16 grid md:grid-cols-2 gap-8'>
