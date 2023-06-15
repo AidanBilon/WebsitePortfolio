@@ -1,6 +1,6 @@
 import React from 'react'
-import flut from '../../public/Assets/projects/flut.jpeg'
-import ProjectMain from '../../components/ProjectMain'
+import flut from '../public/Assets/projects/flut.jpeg'
+import ProjectMain from '../components/ProjectMain'
 
 const Blur = () => {
   return (

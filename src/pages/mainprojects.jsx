@@ -1,9 +1,9 @@
 import React from 'react';
-import expressImg from '../../public/Assets/projects/express.jpg';
-import toyota1Img from '../../public/Assets/projects/toyota1.jpg';
-import toyota2Img from '../../public/Assets/projects/Toyota2.jpg';
-import ProjectItem from '../../components/ProjectItem';
-import flut from '../../public/Assets/projects/flut.jpeg';
+import expressImg from '../public/Assets/projects/express.jpg';
+import toyota1Img from '../public/Assets/projects/toyota1.jpg';
+import toyota2Img from '../public/Assets/projects/Toyota2.jpg';
+import ProjectItem from '../components/ProjectItem';
+import flut from '../public/Assets/projects/flut.jpeg';
 
 const mainprojects = () => {
   return (
