@@ -1,6 +1,6 @@
 import React from 'react'
-import expre from 'public/Assets/projects/expp.jpg'
-import ProjectMain from '../components/ProjectMain'
+import expre from 'public/Assets/Projects/expp.jpg'
+import ProjectMain from '../../components/ProjectMain'
 
 const express = () => {
   return (
