@@ -12,7 +12,7 @@ import SkillSection from '../../components/SkillItem'
 import ProjectItem from '../../components/ProjectItem'
 
 
-const ios = () => {
+const ioss = () => {
   return (
     <div>
       <div className='w-full md:h-screen p-2 flex items-center py-16 px-16'>
@@ -74,4 +74,4 @@ const ios = () => {
   )
 }
 
-export default ios
+export default ioss
