@@ -1,12 +1,9 @@
-import React from 'react'
-import Image from 'next/image'
-import expressImg from '../../public/Assets/projects/express.jpg'
-import toyota1Img from '../../public/Assets/projects/toyota1.jpg'
-import toyota2Img from '../../public/Assets/projects/Toyota2.jpg'
-import tempImg from '../../public/Assets/profPic.webp'
-import Link from 'next/link'
-import ProjectItem from '../../components/ProjectItem'
-import flut from '../../public/Assets/projects/flut.jpeg'
+import React from 'react';
+import expressImg from '../../public/Assets/projects/express.jpg';
+import toyota1Img from '../../public/Assets/projects/toyota1.jpg';
+import toyota2Img from '../../public/Assets/projects/Toyota2.jpg';
+import ProjectItem from '../../components/ProjectItem';
+import flut from '../../public/Assets/projects/flut.jpeg';
 
 const mainprojects = () => {
   return (
@@ -14,7 +11,7 @@ const mainprojects = () => {
     <div className='max-w-[1200px] mx-auto px-2 py-16'>
         <p className='uppercase text-2xl font-bold p-6'>Project Overview</p>
         <div className='text-gray-400 px-2'>
-        <p>Here are the highlights of some projects that I've finished or am currently working on.</p>
+        <p>Here are the highlights of some projects that I&apos;ve finished or am currently working on.</p>
         <p>Each project has its own routed page on this website with a further description and some important</p>
         <p>features that were utilized to make these all a success in their specific branch of software development.</p>
         </div>
@@ -49,4 +46,4 @@ const mainprojects = () => {
   )
 }
 
-export default mainprojects
+export default mainprojects;

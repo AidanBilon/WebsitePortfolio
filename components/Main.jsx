@@ -1,7 +1,7 @@
-import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import Link from 'next/link'
+import React from 'react';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import Link from 'next/link';
 
 const Main = () => {
   return (
@@ -9,7 +9,7 @@ const Main = () => {
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600 py-4'>Welcome to my Portfolio.</p>
-                <h1 className='py-1'> Hello, I'm <span className='font-bold text-blue-600'> Aidan Bilon </span></h1>
+                <h1 className='py-1'> Hello, I&apos;m <span className='font-bold text-blue-600'> Aidan Bilon </span></h1>
                 <h1 className='py-1'> An Engineering Student</h1>
                 <h1 className='py-1'> At The <span className='font-bold text-blue-600'>University of Waterloo</span></h1>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-8 scale-125'>
@@ -42,4 +42,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Main;
