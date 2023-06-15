@@ -2,17 +2,16 @@ import React from 'react';
 import ProjectItem from '../../components/ProjectItem';
 import toyota2Img from '../../public/Assets/projects/Toyota2.jpg';
 import SkillSection from '../../components/SkillSection';
-import pyy from '../../public/Assets/projects/Icons/pyth.png';
-import cpl from '../../public/Assets/projects/Icons/cpl.png';
-import jav from '../../public/Assets/projects/Icons/jav.png';
-import swift from '../../public/Assets/projects/Icons/swift.png';
-import js from '../../public/Assets/projects/Icons/js.png';
-import htcs from '../../public/Assets/projects/Icons/htcs.png';
-import dart from '../../public/Assets/projects/Icons/dart.png';
-import mat from '../../public/Assets/projects/Icons/mat.png';
-import lat from '../../public/Assets/projects/Icons/lat.png';
-import gitt from '../../public/Assets/projects/Icons/git.png';
-
+import pyy from '../../public/Assets/Projects/Icons/pyth.png';
+import cpl from '../../public/Assets/Projects/Icons/cpl.png';
+import jav from '../../public/Assets/Projects/Icons/jav.png';
+import swift from '../../public/Assets/Projects/Icons/swift.png';
+import js from '../../public/Assets/Projects/Icons/js.png';
+import htcs from '../../public/Assets/Projects/Icons/htcs.png';
+import dart from '../../public/Assets/Projects/Icons/dart.png';
+import mat from '../../public/Assets/Projects/Icons/mat.png';
+import lat from '../../public/Assets/Projects/Icons/lat.png';
+import gitt from '../../public/Assets/Projects/Icons/git.png';
 
 const lang = () => {
   return (

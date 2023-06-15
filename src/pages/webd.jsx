@@ -1,14 +1,14 @@
 import React from 'react'
 import ProjectItem from '../../components/ProjectItem'
 import SkillSection from '../../components/SkillSection'
-import react from '../../public/Assets/projects/Icons/react.png'
-import js from '../../public/Assets/projects/Icons/js.png'
-import htcs from '../../public/Assets/projects/Icons/htcs.png'
-import firebase from '../../public/Assets/projects/Icons/fireb.png'
-import webfront from '../../public/Assets/projects/webfront.png'
-import nextj from '../../public/Assets/projects/Icons/nextjs.png'
-import nodej from '../../public/Assets/projects/Icons/nodej.png'
-import twc from '../../public/Assets/projects/Icons/twc.png'
+import react from '../../public/Assets/Projects/Icons/react.png'
+import js from '../../public/Assets/Projects/Icons/js.png'
+import htcs from '../../public/Assets/Projects/Icons/htcs.png'
+import firebase from '../../public/Assets/Projects/Icons/fireb.png'
+import webfront from '../../public/Assets/Projects/webfront.png'
+import nextj from '../../public/Assets/Projects/Icons/nextjs.png'
+import nodej from '../../public/Assets/Projects/Icons/nodej.png'
+import twc from '../../public/Assets/Projects/Icons/twc.png'
 
 
 const webd = () => {
