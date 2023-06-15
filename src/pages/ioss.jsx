@@ -1,15 +1,15 @@
-import React from 'react'
-import SkillSection from '../../components/SkillItem'
-import ProjectItem from '../../components/ProjectItem'
-import flut from '../../public/Assets/Projects/flut.jpeg'
-import swift from '../../public/Assets/Projects/Icons/swift.png'
-import react from '../../public/Assets/Projects/Icons/react.png'
-import js from '../../public/Assets/Projects/Icons/js.png'
-import htcs from '../../public/Assets/Projects/Icons/htcs.png'
-import flutters from '../../public/Assets/Projects/Icons/flutters.png'
-import dart from '../../public/Assets/Projects/Icons/dart.png'
-import xcode from '../../public/Assets/Projects/Icons/xcode.png'
-import firebase from '../../public/Assets/Projects/Icons/fireb.png'
+import React from 'react';
+import SkillSection from '../../components/SkillItem';
+import ProjectItem from '../../components/ProjectItem';
+import flut from '../../public/Assets/Projects/flut.jpeg';
+import swift from '../../public/Assets/Projects/Icons/swift.png';
+import react from '../../public/Assets/Projects/Icons/react.png';
+import js from '../../public/Assets/Projects/Icons/js.png';
+import htcs from '../../public/Assets/Projects/Icons/htcs.png';
+import flutters from '../../public/Assets/Projects/Icons/flutters.png';
+import dart from '../../public/Assets/Projects/Icons/dart.png';
+import xcode from '../../public/Assets/Projects/Icons/xcode.png';
+import firebase from '../../public/Assets/Projects/Icons/fireb.png';
 
 const ioss = () => {
   return (
@@ -73,4 +73,4 @@ const ioss = () => {
   )
 }
 
-export default ioss
+export default ioss;
