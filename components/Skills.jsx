@@ -19,7 +19,7 @@ const Skills = () => {
                 <SkillItem  
                 title='IOS/Mobile Development' 
                 icon={app} 
-                url='/iosx' 
+                url='/ios' 
                 />
                 <SkillItem  
                 title='Machine Learning and Artificial Intelligence' 
