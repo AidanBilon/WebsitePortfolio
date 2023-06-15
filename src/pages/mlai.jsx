@@ -1,13 +1,13 @@
 import React from 'react'
-import ProjectItem from '/components/ProjectItem'
-import toyota2Img from '../public/Assets/projects/mlaa.png'
-import SkillSection from '../components/SkillSection'
-import yolo from '../public/Assets/projects/Icons/yolo.png'
-import robof from '../public/Assets/projects/Icons/robo.png'
-import numpyy from '../public/Assets/projects/Icons/numpy.png'
-import openccv from '../public/Assets/projects/Icons/openc.png'
-import pyy from '../public/Assets/projects/Icons/pyth.png'
-import pych from '../public/Assets/projects/Icons/pych.png'
+import ProjectItem from '../../components/ProjectItem'
+import toyota2Img from '../../public/Assets/projects/mlaa.png'
+import SkillSection from '../../components/SkillSection'
+import yolo from '../../public/Assets/projects/Icons/yolo.png'
+import robof from '../../public/Assets/projects/Icons/robo.png'
+import numpyy from '../../public/Assets/projects/Icons/numpy.png'
+import openccv from '../../public/Assets/projects/Icons/openc.png'
+import pyy from '../../public/Assets/projects/Icons/pyth.png'
+import pych from '../../public/Assets/projects/Icons/pych.png'
 
 const mlai = () => {
   return (
