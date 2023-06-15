@@ -1,10 +1,10 @@
 import React from 'react';
-import expressImg from '../../public/Assets/Projects/express.jpg';
-import toyota1Img from '../../public/Assets/Projects/toyota1.jpg';
-import toyota2Img from '../../public/Assets/Projects/Toyota2.jpg';
+import expressImg from '../public/Assets/Projects/express.jpg';
+import toyota1Img from '../public/Assets/Projects/toyota1.jpg';
+import toyota2Img from '../public/Assets/Projects/Toyota2.jpg';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
-import flut from '../../public/Assets/projects/flut.jpeg';
+import flut from '../public/Assets/projects/flut.jpeg';
 
 const Projects = () => {
   return (

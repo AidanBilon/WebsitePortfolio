@@ -1,9 +1,9 @@
 import React from 'react'
 import SkillItem from './SkillItem'
-import web from '../../public/Assets/IconSkill/Web.png'
-import app from '../../public/Assets/IconSkill/App.png'
-import ai from '../../public/Assets/Skills/AIML.png'
-import lang from '../../public/Assets/IconSkill/lang.png'
+import web from '../public/Assets/IconSkill/Web.png'
+import app from '../public/Assets/IconSkill/App.png'
+import ai from '../public/Assets/Skills/AIML.png'
+import lang from '../public/Assets/IconSkill/lang.png'
 
 const Skills = () => {
   return ( 
