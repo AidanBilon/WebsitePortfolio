@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const SkillSection = ({ icon, url, title }) => {
   return (
@@ -21,4 +21,4 @@ const SkillSection = ({ icon, url, title }) => {
   )
 }
 
-export default SkillSection
+export default SkillSection;

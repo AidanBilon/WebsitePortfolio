@@ -1,9 +1,9 @@
-import React from 'react'
-import SkillItem from './SkillItem'
-import web from '../public/Assets/IconSkill/Web.png'
-import app from '../public/Assets/IconSkill/App.png'
-import ai from '../public/Assets/Skills/AIML.png'
-import lang from '../public/Assets/IconSkill/lang.png'
+import React from 'react';
+import SkillItem from './SkillItem';
+import web from '../public/Assets/IconSkill/Web.png';
+import app from '../public/Assets/IconSkill/App.png';
+import ai from '../public/Assets/Skills/AIML.png';
+import lang from '../public/Assets/IconSkill/lang.png';
 
 const Skills = () => {
   return ( 
@@ -19,7 +19,7 @@ const Skills = () => {
                 <SkillItem  
                 title='IOS/Mobile Development' 
                 icon={app} 
-                url='/ioss' 
+                url='/iosx' 
                 />
                 <SkillItem  
                 title='Machine Learning and Artificial Intelligence' 
@@ -37,4 +37,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Skills;
