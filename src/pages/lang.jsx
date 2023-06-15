@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from '../../components/ProjectItem';
-import toyota2Img from '../../public/Assets/projects/Toyota2.jpg';
+import toyota2Img from '../../public/Assets/Projects/Toyota2.jpg';
 import SkillSection from '../../components/SkillSection';
 import pyy from '../../public/Assets/Projects/Icons/pyth.png';
 import cpl from '../../public/Assets/Projects/Icons/cpl.png';
