@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import profPic from '../../public/Assets/profPic.jpg';
+import profPic from '../public/Assets/profPic.jpg';
 
 const About = () => {
   return (
