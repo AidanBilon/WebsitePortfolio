@@ -12,8 +12,7 @@ const mainprojects = () => {
         <p className='uppercase text-2xl font-bold p-6'>Project Overview</p>
         <div className='text-gray-400 px-2'>
         <p>Here are the highlights of some projects that I&apos;ve finished or am currently working on.</p>
-        <p>Each project has its own routed page on this website with a further description and some important</p>
-        <p>features that were utilized to make these all a success in their specific branch of software development.</p>
+        <p>Each project has its own routed page on this website with a further description and some important features that were utilized to make these all a success in their specific branch of software development.</p>
         </div>
         <div className='grid md:grid-cols-2 gap-8 py-16'>
             <ProjectItem 
