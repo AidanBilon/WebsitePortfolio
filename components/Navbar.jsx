@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import React, {useState, useEffect} from 'react'
-
+import logoIcon from '../public/Assets/mainlogo.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -30,7 +30,7 @@ const Navbar = () => {
             <div className='mx-5'>
             <Link href='/'>
             <Image 
-                src="/../public/Assets/mainlogo.png" 
+                src={logoIcon}
                 alt="/" 
                 width='50' 
                 height='50'

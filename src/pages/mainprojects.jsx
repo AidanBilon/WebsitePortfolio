@@ -17,7 +17,7 @@ const mainprojects = () => {
         </div>
         <div className='grid md:grid-cols-2 gap-8 py-16'>
             <ProjectItem 
-            title='Toyota Innovation Automatic Plug Plate Detection' 
+            title='Toyota Plug Plate Detection' 
             image={toyota2Img} 
             url='/toyotaai' 
             descr='Deep Learning Artificial Intelligence (Python)'

@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from '../../components/ProjectItem';
-import toyota2Img from '../../public/Assets/Projects/Toyota2.jpg';
+import mlll from '../../public/Assets/Projects/mlll.jpeg';
 import SkillSection from '../../components/SkillSection';
 import pyy from '../../public/Assets/Projects/Icons/pyth.png';
 import cpl from '../../public/Assets/Projects/Icons/cpl.png';
@@ -29,8 +29,8 @@ const lang = () => {
           <div className='hidden md:flex'>
             <ProjectItem 
               className='fill'
-              title='Toyota Innovation Automatic Plug Plate Detection' 
-              image={toyota2Img} 
+              title='Toyota Innovation Car Body Analysis' 
+              image={mlll} 
               url='/toyotaai' 
               descr='Relevant Project'
             />

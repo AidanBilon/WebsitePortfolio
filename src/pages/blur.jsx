@@ -14,7 +14,7 @@ const Blur = () => {
       <div className='w-full p-2 flex items-center px-16'>
         <div className='max-w-[1200px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <div className='text-sm py-4'>
+                <div className='text-lg py-4'>
                 <p>An ambitious work-in-progress project is a new social media app designed to run seamlessly on both iOS and Android platforms. This cutting-edge app harnesses the power of technologies such as Flutter and Dart to deliver a unified user experience across devices. By incorporating location-based services and authentication API for secure access, this app aims to redefine the way we connect and interact with others.</p>
                 <p className='py-2 font-semibold'>More information and added content will be added to this page as the application reaches further development.</p>
                 </div>
