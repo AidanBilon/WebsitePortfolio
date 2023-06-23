@@ -3,7 +3,7 @@ import expressImg from '../../public/Assets/Projects/express.jpg';
 import toyota1Img from '../../public/Assets/Projects/toyota1.jpg';
 import toyota2Img from '../../public/Assets/Projects/Toyota2.jpg';
 import ProjectItem from '../../components/ProjectItem';
-import flut from '../../public/Assets/Projects/flut.jpeg';
+import flut from '../../public/Assets/Projects/blur.jpg';
 
 const mainprojects = () => {
   return (
@@ -11,8 +11,7 @@ const mainprojects = () => {
     <div className='max-w-[1200px] mx-auto px-2 py-16'>
         <p className='uppercase text-2xl font-bold p-6'>Project Overview</p>
         <div className='text-gray-400 px-2'>
-        <p>Here are the highlights of some projects that I&apos;ve finished or am currently working on.</p>
-        <p>Each project has its own routed page on this website with a further description and some important features that were utilized to make these all a success in their specific branch of software development.</p>
+        <p>Here are the highlights of some projects that I&apos;ve finished or am currently working on. Each project has its own routed page on this website with a further description and some important features that were utilized to make these all a success in their specific branch of software development.</p>
         </div>
         <div className='grid md:grid-cols-2 gap-8 py-16'>
             <ProjectItem 

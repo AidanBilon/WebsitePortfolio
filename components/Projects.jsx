@@ -4,7 +4,7 @@ import toyota1Img from '../public/Assets/Projects/toyota1.jpg';
 import toyota2Img from '../public/Assets/Projects/Toyota2.jpg';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
-import flut from '../public/Assets/Projects/flut.jpeg';
+import flut from '../public/Assets/Projects/blur.jpg';
 
 const Projects = () => {
   return (
