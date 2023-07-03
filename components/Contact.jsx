@@ -16,12 +16,12 @@ const Contact = () => {
             <FaLinkedin size={15} />
           </div>
           </Link>
-          <Link href="https://github.com/AidanBilon" target="_blank">
+          <Link href="mailto:aidanbilon@gmail.com" target="_blank">
           <div className='p-2 cursor-pointer hover:scale-150 ease-in duration-300 hover:border-b rounded-full shadow-xl shadow-gray-400'>
             <AiOutlineMail size={15} />
           </div>
           </Link>
-          <Link href="mailto:aidanbilon@gmail.com" target="blank">
+          <Link href="https://github.com/AidanBilon" target="blank">
           <div className='p-2 cursor-pointer hover:scale-150 ease-in duration-300 hover:border-b rounded-full shadow-xl shadow-gray-400'>
             <FaGithub size={15} />
           </div>

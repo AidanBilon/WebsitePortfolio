@@ -2,6 +2,7 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Link from 'next/link';
+import { IoIosArrowDown } from "react-icons/io";
 
 const Main = () => {
   return (
@@ -36,6 +37,13 @@ const Main = () => {
                         </div>
                     </Link>
                 </div>
+                <div className='text-gray-400 w-auto text-xs flex flex-col items-center'>
+                    <p>Or Scroll Down</p>
+                    <div className='p-4 flex justify-center'>
+                        <IoIosArrowDown />
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

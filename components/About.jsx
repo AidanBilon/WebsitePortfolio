@@ -16,7 +16,7 @@ const About = () => {
                 <p>I am constantly seeking new challenges and opportunities to enhance my skills and contribute to innovative projects. Feel free to explore my portfolio website and get in touch with me for collaborations or any inquiries. Thank you for visiting!</p>
                 </div>
             </div>
-            <div className='w-full h-auto m-auto border-b shadow-xl shadow-gray-500 items-center justify-center hover:scale-105 duration-300 fill'>
+            <div className='w-full h-auto m-auto border-b shadow-xl shadow-gray-500 items-center justify-center fill'>
                 <Image 
                 src={profPic} 
                 alt='/' 
