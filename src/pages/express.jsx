@@ -1,5 +1,5 @@
 import React from 'react'
-import expre from 'public/Assets/Projects/expp.jpg'
+import expre from 'public/Assets/Projects/express.jpg'
 import ProjectMain from '../../components/ProjectMain'
 
 const express = () => {
