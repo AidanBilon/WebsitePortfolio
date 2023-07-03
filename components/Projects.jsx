@@ -19,6 +19,12 @@ const Projects = () => {
                 descr='Deep Learning Artificial Intelligence (Python)'
                 />
                 <ProjectItem 
+                title='Blur' 
+                image={flut} 
+                url='/blur' 
+                descr='WIP IOS/Android Application (Flutter & Firebase)'
+                />
+                <ProjectItem 
                 title='Express-O' 
                 image={expressImg} 
                 url='/express' 
@@ -29,12 +35,6 @@ const Projects = () => {
                 image={toyota1Img} 
                 url='/toyml' 
                 descr='Classical Machine Learning (Python)'
-                />
-                <ProjectItem 
-                title='Blur' 
-                image={flut} 
-                url='/blur' 
-                descr='WIP IOS/Android Application (Flutter & Firebase)'
                 />
             </div>
             </div>

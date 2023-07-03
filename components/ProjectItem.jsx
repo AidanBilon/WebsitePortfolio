@@ -6,7 +6,7 @@ const ProjectItem = ({title, image, url, descr}) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-lg shadow-gray-400 rounded-sm p-4 group hover:bg-gray-200'>
     <Image 
-    className='rounded-sm group-hover:opacity-10 ease-in duration-300 h-full w-full'
+    className='rounded-sm group-hover:opacity-10 ease-in duration-300 w-full'
     src={image} alt='/' />
         <div className='hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
             <h3 className='text-xl text-gray-600 tracking-wider text-center'>{title}</h3>
