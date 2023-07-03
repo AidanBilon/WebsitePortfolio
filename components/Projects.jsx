@@ -37,13 +37,13 @@ const Projects = () => {
                 descr='WIP IOS/Android Application (Flutter & Firebase)'
                 />
             </div>
+            </div>
             <Link href='/mainprojects'>
-            <div className='items-center shadow-xl shadow-gray-400 rounded-xl p-8'>
+            <div className='items-center shadow-lg shadow-gray-400 rounded-sm p-8'>
               <p className='text-slate-600 font-bold uppercase cursor-pointer justify-center flex'>View More Projects</p>
             </div>
             </Link>
         </div>
-    </div>
   )
 }
 

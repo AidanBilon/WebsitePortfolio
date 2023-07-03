@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const SkillSection = ({ icon, url, title }) => {
   return (
-    <div className='relative flex items-center justify-start h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+    <div className='relative flex items-center justify-start h-auto w-full shadow-sm shadow-gray-400 rounded-md p-4'>
       <div className="flex items-center">
         <div className="mr-4">
           <Image src={icon} alt="/" width={40} height={40}/>
