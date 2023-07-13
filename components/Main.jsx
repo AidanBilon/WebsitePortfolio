@@ -37,13 +37,14 @@ const Main = () => {
                         </div>
                     </Link>
                 </div>
+                <Link href='/#about'>
                 <div className='text-gray-400 w-auto text-xs flex flex-col items-center'>
                     <p>Or Scroll Down</p>
                     <div className='p-4 flex justify-center'>
                         <IoIosArrowDown />
                     </div>
                 </div>
-
+                </Link>
             </div>
         </div>
     </div>
