@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full'>
         <div className='max-w-[1200px] mx-auto px-2 py-16'>
-            <p className='uppercase text-2xl font-bold p-6'>Projects</p>
+            <p className='uppercase text-2xl font-extrabold pb-8'>Projects</p>
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItem 
                 title='Toyota Innovation Automatic Plug Plate Detection' 
@@ -22,7 +22,7 @@ const Projects = () => {
                 title='Blur' 
                 image={flut} 
                 url='/blur' 
-                descr='WIP IOS/Android Application (Flutter & Firebase)'
+                descr='iOS/Android Social Media App (Flutter)'
                 />
                 <ProjectItem 
                 title='Express-O' 
@@ -39,10 +39,11 @@ const Projects = () => {
             </div>
             </div>
             <Link href='/mainprojects'>
-            <div className='items-center shadow-lg shadow-gray-400 rounded-sm p-8'>
+            <div className='shadow-lg shadow-gray-400 rounded-sm p-8 max-w-[300px] mx-auto'>
               <p className='text-slate-600 font-bold uppercase cursor-pointer justify-center flex'>View More Projects</p>
             </div>
             </Link>
+            <div className='p-6'></div>
         </div>
   )
 }
