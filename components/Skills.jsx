@@ -8,8 +8,8 @@ import lang from '../public/Assets/IconSkill/lang.png';
 const Skills = () => {
   return ( 
     <div id='skills' className='w-full'>
-        <div className='max-w-[1200px] mx-auto px-2 py-16'>
-            <p className='uppercase text-2xl font-bold p-6'>Skills</p>
+        <div className='max-w-[1200px] mx-auto px-2 pt-32'>
+            <p className='uppercase text-2xl font-extrabold pb-6'>Skills</p>
             <div className='grid md:grid-cols-2 gap-8'>
                 <SkillItem 
                 title='Website Development' 
