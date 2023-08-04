@@ -1,27 +1,57 @@
 import React from 'react';
 import Image from 'next/image';
 import profPic from '../public/Assets/profPic.jpg';
+import nextj from '../public/Assets/Projects/Icons/nextjs.png';
+import twc from '../public/Assets/Projects/Icons/twc.png';
+import react from '../public/Assets/Projects/Icons/react.png';
+import js from '../public/Assets/Projects/Icons/js.png';
 
 const About = () => {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16 px-16'>
         <div className='max-w-[1200px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <p className='uppercase text-2xl font-bold p-4'>About Me</p>
-                <div className='text-xs py-4'>
-                <p>Welcome to my website portfolio! I&apos;m an engineering student at the University of Waterloo, interested in software development. I have experience and interest in machine learning, artificial intelligence, and full-stack development as I find the field fascinating with lots of room for expansion. Additionally, I have a passion to learn software integration in mechanical processes and hope to work on projects pertaining to this field in the future.</p>
-                <p className='py-2 font-semibold'>This website utilized the react-based framework Next.js to optimize lazy-loading images and routing in combination with Tailwind CSS, making the components establish a polished finish.</p>
-                <p>To find the languages, frameworks, and associated skills in programming, web development, app development, and AI please click (or scroll) down to my skills section and select the highlighted sections.</p>
-                <p className='py-2'>My project section on this main page only highlights two interesting projects that I&apos;ve worked on previously so also make sure to click the button at the top of the page or the more projects button to look at some other things I&apos;ve been working on.</p>
-                <p>I am constantly seeking new challenges and opportunities to enhance my skills and contribute to innovative projects. Feel free to explore my portfolio website and get in touch with me for collaborations or any inquiries. Thank you for visiting!</p>
+                <p className='uppercase text-2xl font-extrabold py-4'>About Me</p>
+
+                <p className='text-sm font-medium'>Welcome to my website portfolio! I&apos;m an engineering student at the University of Waterloo, interested in software development. I have experience and interest in ML/AI, and full-stack development. Additionally, I&apos;m looking into learning software integration in robotic development.</p>
+                <p className='text-lg font-extrabold pt-4'>Website Tech Stack</p>
+                <div className='flex space-x-4'>
+                  <Image
+                  src={react}
+                  alt='/'
+                  width={30}
+                  height={30}
+                  />
+                  <Image
+                  src={nextj}
+                  alt='/'
+                  width={30}
+                  height={30}
+                  />
+                  <Image
+                  src={js}
+                  alt='/'
+                  width={30}
+                  height={30}
+                  />
+                  <Image
+                  src={twc}
+                  alt='/'
+                  width={30}
+                  height={30}
+                  />
                 </div>
+                <p className='text-lg font-extrabold pt-4'>Skills</p>
+                <p className='py-2 text-sm font-medium'>To find associated skills in programming, web dev, and AI, scroll down (or click) and select the each skill.</p>
+                <p className='text-lg font-extrabold pt-4'>Projects</p>
+                <p className='py-2 text-sm font-medium'>The main page project section only highlights new projects that I&apos;ve worked on recently, click in the projects ssection to look at some other things I&apos;ve been working on.</p>
             </div>
-            <div className='w-full h-auto m-auto border-b shadow-xl shadow-gray-500 items-center justify-center fill'>
+            <div className='w-full h-auto m-auto rounded-md items-center justify-center fill'>
                 <Image 
                 src={profPic} 
                 alt='/' 
-                width={450} 
-                height={450}
+                width={400} 
+                height={400}
                 /> 
             </div>
         </div>

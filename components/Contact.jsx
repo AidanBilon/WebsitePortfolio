@@ -7,9 +7,9 @@ import { HiChevronDoubleUp } from 'react-icons/hi'
 const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
-      <div className='max-w-[1200px] m-auto px-2 py-16 w-full'>
-        <p className='uppercase text-2xl font-bold p-6'>Contact</p>
-        <p className='p-4'>Reach Out and Connect with Me!</p>
+      <div className='max-w-[1200px] m-auto px-2 pt-64 w-full'>
+        <p className='uppercase text-2xl font-extrabold pb-6'>Contact</p>
+        <p className='py-4'>Reach Out and Connect with Me!</p>
         <div className='flex items-center justify-between max-w-[330px] m-auto py-8 scale-125 px-12'>
           <Link href="https://www.linkedin.com/in/bilon/" target="_blank">
           <div className='p-2 cursor-pointer hover:scale-150 ease-in duration-300 hover:border-b rounded-full'>
