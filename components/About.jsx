@@ -12,8 +12,7 @@ const About = () => {
         <div className='max-w-[1200px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase text-2xl font-extrabold py-4'>About Me</p>
-
-                <p className='text-sm font-medium'>Welcome to my website portfolio! I&apos;m an engineering student at the University of Waterloo, interested in software development. I have experience and interest in ML/AI, and full-stack development. Additionally, I'm looking into learning software integration in robotic development.</p>
+                <p className='text-sm font-medium'>Welcome to my website portfolio! I&apos;m an engineering student at the University of Waterloo, interested in software development. I have experience and interest in ML/AI, and full-stack development. Additionally, I&apos;m looking into learning software integration in robotic development.</p>
                 <p className='text-lg font-extrabold pt-4'>Website Tech Stack</p>
                 <div className='flex space-x-4'>
                   <Image
