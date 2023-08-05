@@ -14,7 +14,7 @@ import twc from '../../public/Assets/Projects/Icons/twc.png'
 const webd = () => {
   return (
     <div>
-      <div className='w-full md:h-screen p-2 flex items-center py-16 px-16'>
+      <div className='w-full md:h-screen p-2 flex items-center pt-32 px-16'>
         <div className='max-w-[1200px] m-auto grid md:grid-cols-2 gap-8'>
           <div>
             <p className='uppercase text-2xl font-bold p-2'>Website Development</p>
