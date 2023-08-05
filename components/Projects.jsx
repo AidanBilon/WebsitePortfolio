@@ -39,11 +39,7 @@ const Projects = () => {
             </div>
             </div>
             <Link href='/mainprojects'>
-<<<<<<< HEAD
             <div className='shadow-lg shadow-gray-400 rounded-sm p-4 max-w-[300px] mx-auto'>
-=======
-            <div className='shadow-lg shadow-gray-400 rounded-sm p-8 max-w-[300px] mx-auto'>
->>>>>>> origin/main
               <p className='text-slate-600 font-bold uppercase cursor-pointer justify-center flex'>View More Projects</p>
             </div>
             </Link>

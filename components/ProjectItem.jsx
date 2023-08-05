@@ -4,11 +4,7 @@ import Link from 'next/link'
 
 const ProjectItem = ({title, image, url, descr}) => {
   return (
-<<<<<<< HEAD
     <div className='relative flex items-center justify-center h-[390px] w-full shadow-md shadow-gray-400 rounded-sm p-1 group hover:bg-gray-200 overflow-hidden'>
-=======
-    <div className='relative flex items-center justify-center h-auto w-full shadow-md shadow-gray-400 rounded-sm p-1 group hover:bg-gray-200'>
->>>>>>> origin/main
     <Image 
     className='rounded-sm group-hover:opacity-10 ease-in duration-300 w-full h-full object-cover responsive'
     src={image} alt='/'/>
