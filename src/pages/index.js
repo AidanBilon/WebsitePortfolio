@@ -16,7 +16,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Aidan Bilon | Portfolio</title>
-        <meta name="google-site-verification" content="googlefd7d50bd21655c23" />
+        <meta name="google-site-verification" content="6yYu_oEKHUsh1vqmX9DUtrEIWSYxPAfgmI46WYp8WDo" />
         <meta name="description" content="Aidan Bilon's Website Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
