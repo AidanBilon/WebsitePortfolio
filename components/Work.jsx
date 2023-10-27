@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import Image from 'next/image';
 import PWO from '../public/Assets/PWO_web.png';
 import Rocket from '../public/Assets/UWrock.png';

@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
 import profPic from '../public/Assets/profPic.jpg';
 import nextj from '../public/Assets/Projects/Icons/nextjs.png';
 import twc from '../public/Assets/Projects/Icons/twc.png';

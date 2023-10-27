@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import SkillItem from './SkillItem';
 import web from '../public/Assets/IconSkill/Web.png';
 import app from '../public/Assets/IconSkill/App.png';

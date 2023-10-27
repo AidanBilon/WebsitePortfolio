@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import expressImg from '../public/Assets/Projects/express.jpg';
 import toyota1Img from '../public/Assets/Projects/toyota1.jpg';
 import toyota2Img from '../public/Assets/Projects/Toyota2.jpg';
