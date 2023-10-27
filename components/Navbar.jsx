@@ -45,6 +45,9 @@ const Navbar = () => {
                     <Link href='/#about'>
                         <li onClick={()=> setNav(false)} className='ml-10 text-sm uppercase hover:border-b'>About</li>
                     </Link>
+                    <Link href='/#work'>
+                        <li onClick={()=> setNav(false)} className='ml-10 text-sm uppercase hover:border-b'>Work</li>
+                    </Link>
                     <Link href='/#projects'>
                         <li onClick={()=> setNav(false)} className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
                     </Link>
