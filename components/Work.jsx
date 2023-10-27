@@ -6,6 +6,12 @@ import Rocket from '../public/Assets/UWrock.png';
 const Work = () => {
   return (
     <div id='work' className='w-full md:h-screen p-2 flex items-center py-16 px-16'>
+      <Head>
+        <title>Work Experience</title>
+        <meta name="description" content="Relevant Industry Experience"></meta>
+        <meta name="keywords" content="Aidan Bilon, Engineering Resume"></meta>
+        <meta name="robots" content="index,follow"/>
+      </Head>
         <div className='max-w-[1200px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase text-2xl font-extrabold'>PWO Group</p>

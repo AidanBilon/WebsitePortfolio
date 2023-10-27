@@ -9,6 +9,12 @@ import js from '../public/Assets/Projects/Icons/js.png';
 const About = () => {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16 px-16'>
+      <Head>
+        <title>Aidan Bilon</title>
+        <meta name="description" content="Resume Portfolio"></meta>
+        <meta name="keywords" content="Aidan Bilon, Engineering Resume"></meta>
+        <meta name="robots" content="index,follow"/>
+      </Head>
         <div className='max-w-[1200px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase text-2xl font-extrabold py-4'>About Me</p>

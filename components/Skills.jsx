@@ -8,6 +8,12 @@ import lang from '../public/Assets/IconSkill/lang.png';
 const Skills = () => {
   return ( 
     <div id='skills' className='w-full'>
+      <Head>
+        <title>Skills</title>
+        <meta name="description" content="Skill Section"></meta>
+        <meta name="keywords" content="Aidan Bilon, Engineering Resume"></meta>
+        <meta name="robots" content="index,follow"/>
+      </Head>
         <div className='max-w-[1200px] mx-auto px-2 pt-32'>
             <p className='uppercase text-2xl font-extrabold pb-6'>Skills</p>
             <div className='grid md:grid-cols-2 gap-8'>

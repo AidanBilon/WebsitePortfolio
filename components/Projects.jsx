@@ -9,6 +9,12 @@ import flut from '../public/Assets/Projects/blur.jpg';
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
+      <Head>
+        <title>Projects</title>
+        <meta name="description" content="Personal Projects"></meta>
+        <meta name="keywords" content="Aidan Bilon, Engineering Resume"></meta>
+        <meta name="robots" content="index,follow"/>
+      </Head>
         <div className='max-w-[1200px] mx-auto px-2 py-16'>
             <p className='uppercase text-2xl font-extrabold pb-8'>Projects</p>
             <div className='grid md:grid-cols-2 gap-8'>
