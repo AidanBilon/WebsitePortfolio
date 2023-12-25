@@ -5,11 +5,11 @@ import toyota1Img from '../public/Assets/Projects/toyota1.jpg';
 import toyota2Img from '../public/Assets/Projects/Toyota2.jpg';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
-import flut from '../public/Assets/Projects/blur.jpg';
+import car from '../public/Assets/carvroom.jpeg';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
+    <div id='projects' className='w-full py-96'>
       <Head>
         <title>Projects</title>
         <meta name="description" content="Personal Projects"></meta>
@@ -26,10 +26,10 @@ const Projects = () => {
                 descr='Deep Learning Artificial Intelligence (Python)'
                 />
                 <ProjectItem 
-                title='Blur' 
-                image={flut} 
-                url='/blur' 
-                descr='iOS/Android Social Media App (Flutter)'
+                title='Autonomous Vehicle Research Real-time Embedded Software Group (ESG)' 
+                image={car} 
+                url='#work' 
+                descr='WIP Project with Dr. Sebastian Fischmeister and ESG'
                 />
                 <ProjectItem 
                 title='Express-O' 
