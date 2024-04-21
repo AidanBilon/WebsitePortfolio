@@ -4,18 +4,17 @@ import Image from 'next/image';
 import Pwo from '../public/Assets/pwo.png';
 import Wsp from '../public/Assets/WSP_logo.png';
 import Rocket from '../public/Assets/rocketry.png';
-import water from '../public/Assets/water.png'
 
 const Work = () => {
-  return (
-    <div id='work' className='w-full md:h-screen p-2 flex items-center px-16'>
+    return (
+      <div id='work' className='w-full min-h-screen p-2 flex items-center py-16 px-16'>
       <Head>
         <title>Work Experience</title>
         <meta name="description" content="Relevant Industry Experience"></meta>
         <meta name="keywords" content="Aidan Bilon, Engineering Resume"></meta>
         <meta name="robots" content="index,follow"/>
       </Head>
-        <div className='max-w-[1200px] m-auto md:grid grid-cols-3 gap-8'>
+      <div className='max-w-[1200px] m-auto grid grid-cols-1 md:grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase text-2xl font-extrabold'>Real-Time Embedded Software Group</p>
                 <p className='text-md font-bold'>Lead Autonomous Robotics Research Assistant</p>

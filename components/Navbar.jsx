@@ -1,68 +1,83 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
-import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
-import React, {useState, useEffect} from 'react'
-import logoIcon from '../public/Assets/mainlogo.png'
+import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import React, { useState, useEffect } from 'react';
+import logoIcon from '../public/Assets/mainlogo.png';
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false)
-    const [shadow, setShadow] = useState(false)
+    const [nav, setNav] = useState(false);
+    const [shadow, setShadow] = useState(false);
+    const [navbarVisible, setNavbarVisible] = useState(false);
+    const [linksVisible, setLinksVisible] = useState(false); // State to control the visibility of the links
 
     const handleNav = () => {
-        setNav(!nav)
-    }
+        setNav(!nav);
+    };
 
     useEffect(() => {
-        const handleShadow = () => {
-            if (window.scrollY >= 90) {
-                setShadow(true)
-            } else {
-                setShadow(false)
-            }
-        }
-        window.addEventListener('scroll', handleShadow)
-    },[])
+        const handleScroll = () => {
+            const navbarHeight = 80;
+            const show = window.scrollY > (window.innerHeight - navbarHeight);
+            setShadow(show);
+            setNavbarVisible(show);
+            setLinksVisible(show);
+        };
 
-  return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 scroll-smooth bg-gray-100'>
-            <div className='mx-5'>
-            <Link href='/'>
-            <Image 
-                src={logoIcon}
-                alt="/" 
-                width='50' 
-                height='50'
-            />
-            </Link>
-            </div>
-            <div className='mx-5'>
-                <ul className='hidden md:flex'>
-                    <Link href='/'>
-                        <li onClick={()=> setNav(false)} className='ml-10 text-sm uppercase hover:border-b'>Home</li>
-                    </Link>
-                    <Link href='/#about'>
-                        <li onClick={()=> setNav(false)} className='ml-10 text-sm uppercase hover:border-b'>About</li>
-                    </Link>
-                    <Link href='/#work'>
-                        <li onClick={()=> setNav(false)} className='ml-10 text-sm uppercase hover:border-b'>Work</li>
-                    </Link>
-                    <Link href='/#projects'>
-                        <li onClick={()=> setNav(false)} className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
-                    </Link>
-                    <Link href='/#skills'>
-                        <li onClick={()=> setNav(false)} className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-                    </Link>
-                    <Link href='/#contact'>
-                        <li onClick={()=> setNav(false)} className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-                    </Link>
-                </ul>
-                <div onClick={handleNav} className='md:hidden p-3 cursor-pointer'>
-                    <AiOutlineMenu size={25} />
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        };
+
+    <li onClick={() => scrollToSection('work')} className='ml-10 text-sm uppercase hover:border-b cursor-pointer'>Work</li>
+
+    return (
+        <div className={`fixed w-full h-20 z-[100] transition-all duration-300 ${navbarVisible ? 'bg-gray-100 shadow-xl' : 'bg-transparent'}`}>
+            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+                <Link href='/' passHref>
+                    <div className='flex items-center cursor-pointer'>
+                        <Image 
+                            src={logoIcon}
+                            alt="/" 
+                            width='50' 
+                            height='50'
+                        />
+                    </div>
+                </Link>
+                <div>
+                    {linksVisible && (
+                        <ul className='hidden md:flex'>
+                            <li className='ml-10 text-sm uppercase hover:border-b cursor-pointer'>
+                                <Link href='/'>Home</Link>
+                            </li>
+                            <li className='ml-10 text-sm uppercase hover:border-b cursor-pointer'>
+                                <Link href='/#about'>About</Link>
+                            </li>
+                            <li className='ml-10 text-sm uppercase hover:border-b cursor-pointer'>
+                                <Link href='/#work'>Work</Link>
+                            </li>
+                            <li className='ml-10 text-sm uppercase hover:border-b cursor-pointer'>
+                                <Link href='/#projects'>Projects</Link>
+                            </li>
+                            <li className='ml-10 text-sm uppercase hover:border-b cursor-pointer'>
+                                <Link href='/#skills'>Skills</Link>
+                            </li>
+                            <li className='ml-10 text-sm uppercase hover:border-b cursor-pointer'>
+                                <Link href='/#contact'>Contact</Link>
+                            </li>
+                        </ul>
+                    )}
+                    <div onClick={handleNav} className='md:hidden p-3 cursor-pointer'>
+                        <AiOutlineMenu size={25} />
+                    </div>
                 </div>
             </div>
-        </div>
     <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
         <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
             <div>
