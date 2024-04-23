@@ -9,7 +9,7 @@ import js from '../public/Assets/Projects/Icons/js.png';
 
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16 px-16'>
+    <div id='about' className='w-full md:h-screen flex items-center p-16'>
       <Head>
         <title>Aidan Bilon</title>
         <meta name="description" content="Resume Portfolio"></meta>

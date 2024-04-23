@@ -9,7 +9,7 @@ import mPageMobile from '../public/Assets/fronttit-mobile.png';
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center flex flex-col items-center justify-center relative'>
+    <div id='home' className='w-full h-screen text-center flex flex-col items-center justify-center relative p-16'>
         <div className='hidden lg:block absolute top-0 left-0 w-full h-full z-0'>
             <video autoPlay loop muted className='w-full h-full object-cover'>
                 <source src="/Assets/backG.mp4" type="video/mp4" />

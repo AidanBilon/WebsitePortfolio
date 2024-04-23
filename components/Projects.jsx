@@ -9,7 +9,7 @@ import car from '../public/Assets/carvroom.jpeg';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full py-16'>
+    <div id='projects' className='w-full p-16'>
       <Head>
         <title>Projects</title>
         <meta name="description" content="Personal Projects"></meta>
@@ -45,12 +45,12 @@ const Projects = () => {
                 />
             </div>
             </div>
+            <div className='p-4'></div>
             <Link href='/mainprojects'>
             <div className='shadow-lg shadow-gray-400 rounded-sm p-4 max-w-[300px] mx-auto'>
               <p className='text-slate-600 font-bold uppercase cursor-pointer justify-center flex'>View More Projects</p>
             </div>
             </Link>
-            <div className='p-6'></div>
         </div>
   )
 }

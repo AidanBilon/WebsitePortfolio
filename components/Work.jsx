@@ -7,7 +7,7 @@ import Rocket from '../public/Assets/rocketry.png';
 
 const Work = () => {
     return (
-      <div id='work' className='w-full min-h-screen p-2 flex items-center py-16 px-16'>
+      <div id='work' className='w-full min-h-screen flex items-center p-16'>
       <Head>
         <title>Work Experience</title>
         <meta name="description" content="Relevant Industry Experience"></meta>
@@ -59,7 +59,7 @@ const Work = () => {
                 <p className='py-2 text-sm font-medium'>• Actively involved in embedded firmware and software development, contributing to the programming and optimization of the PIC18F microcontroller to enhance the functionality and performance of rocketry systems.</p>
                 <p className='py-2 text-sm font-medium'>• Played a key role in PCB design and fabrication, demonstrating proficiency in schematic design, component selection, and soldering techniques to ensure the reliability of electronic systems crucial to rocketry projects.</p>
             </div>
-            <div className='w-full h-auto m-auto rounded-md items-center justify-center fill pb-96'>
+            <div className='w-full h-auto m-auto rounded-md items-center justify-center fill'>
                 <Image 
                 src={Rocket} 
                 alt='/' 
@@ -67,7 +67,6 @@ const Work = () => {
                 height={200}
                 /> 
             </div>
-            <div className='pb-96'></div>
         </div>
     </div>
   )
