@@ -17,7 +17,7 @@ const Main = () => {
         </div>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 z-10 relative flex flex-col items-center justify-center'>
             <div className='lg:hidden w-full flex flex-col items-center justify-center text-4xl'>
-                <p className='pt-12 p-6'>Hi, I'm <span className='text-light-blue-400 font-extrabold'>Aidan Bilon</span></p>
+                <p className='pt-12 p-6'>Hi, I&apos;m <span className='text-light-blue-400 font-extrabold'>Aidan Bilon</span></p>
                 <p className='p-6'>An Engineering Student at the University of Waterloo</p>
                 <p className='p-6'>Welcome to my portfolio</p>
             </div>
