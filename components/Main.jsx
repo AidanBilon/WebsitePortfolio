@@ -16,13 +16,10 @@ const Main = () => {
             </video>
         </div>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 z-10 relative flex flex-col items-center justify-center'>
-            <div className='lg:hidden w-full flex justify-center'>
-                <Image
-                src={mPageMobile}
-                alt='/'
-                height={800}
-                width={800}
-                />
+            <div className='lg:hidden w-full flex flex-col items-center justify-center text-4xl'>
+                <p className='pt-12 p-6'>Hi, I'm <span className='text-light-blue-400 font-extrabold'>Aidan Bilon</span></p>
+                <p className='p-6'>An Engineering Student at the University of Waterloo</p>
+                <p className='p-6'>Welcome to my portfolio</p>
             </div>
             <div className='hidden lg:flex justify-center w-full pt-12'>
                 <Image
@@ -34,25 +31,25 @@ const Main = () => {
             </div>
             <div className='flex items-center justify-between max-w-[330px] m-auto py-8 scale-125 px-12'>
                 <Link href="https://www.linkedin.com/in/bilon/" target="_blank">
-                    <div className='p-2 cursor-pointer hover:scale-150 ease-in duration-300 hover:border-b rounded-full bg-transparent xl:bg-white mx-4'>
+                    <div className='p-2 cursor-pointer hover:scale-150 ease-in duration-300 hover:border-b rounded-full bg-transparent xl:bg-[#1f2937] mx-4'>
                         <FaLinkedin />
                     </div>
                     </Link>
                     <Link href="https://github.com/AidanBilon" target="_blank">
-                    <div className='p-2 cursor-pointer hover:scale-150 ease-in duration-300 hover:border-b rounded-full bg-transparent xl:bg-white mx-4'>
+                    <div className='p-2 cursor-pointer hover:scale-150 ease-in duration-300 hover:border-b rounded-full bg-transparent xl:bg-[#1f2937] mx-4'>
                         <FaGithub />
                     </div>
                     </Link>
                     <Link href="mailto:aidanbilon@gmail.com" target="_blank">
-                    <div className='p-2 cursor-pointer hover:scale-150 ease-in duration-300 hover:border-b rounded-full bg-transparent xl:bg-white mx-4'>
+                    <div className='p-2 cursor-pointer hover:scale-150 ease-in duration-300 hover:border-b rounded-full bg-transparent xl:bg-[#1f2937] mx-4'>
                         <AiOutlineMail />
                     </div>
                 </Link>
             </div>
             <Link href='/#about'>
-                <div className='text-black xl:text-white w-auto text-sm flex flex-col items-center font-extrabold'>
+                <div className='text-gray-100 xl:text-white w-auto text-sm flex flex-col items-center font-extrabold'>
                     <p>Scroll Down</p>
-                    <IoIosArrowDown className='text-black xl:text-white animate-bounce'/>
+                    <IoIosArrowDown className='text-gray-100 xl:text-white animate-bounce'/>
                 </div>
             </Link>
         </div>

@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  @apply bg-gray-100 text-[#1f2937] tracking-wide;
+  @apply bg-[#1f2937] text-gray-100 tracking-wide;
 }
 
 h1, h2, h3, h4 {

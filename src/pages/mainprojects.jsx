@@ -2,8 +2,8 @@ import React from 'react';
 import expressImg from '../../public/Assets/Projects/express.jpg';
 import toyota1Img from '../../public/Assets/Projects/toyota1.jpg';
 import toyota2Img from '../../public/Assets/Projects/Toyota2.jpg';
+import car from '../../public/Assets/carvroom.jpeg';
 import ProjectItem from '../../components/ProjectItem';
-import flut from '../../public/Assets/Projects/blur.jpg';
 
 const mainprojects = () => {
   return (
@@ -21,10 +21,10 @@ const mainprojects = () => {
             descr='Deep Learning Artificial Intelligence (Python)'
             />
             <ProjectItem 
-            title='Blur' 
-            image={flut} 
-            url='/blur' 
-            descr='WIP IOS/Android Application (Flutter & Firebase)'
+            title='Autonomous Vehicle Research Real-time Embedded Software Group (ESG)' 
+            image={car} 
+            url='#work' 
+            descr='Research Project with Dr. Sebastian Fischmeister and ESG'
             />
             <ProjectItem 
             title='Express-O' 

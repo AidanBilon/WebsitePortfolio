@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ProjectMain = ({title, image, descr}) => {
   return (
-    <div className='relative flex items-center justify-center w-full bg-gray-800 h-60'>
+    <div className='relative flex items-center justify-center w-full bg-gray-100 h-60'>
     <Image 
     className='group opacity-40 h-full w-full object-cover'
     src={image} alt='/' />

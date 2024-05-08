@@ -18,8 +18,8 @@ const express = () => {
                 <p>A drink mixing machine utilizing mechanical software integration designed to revolutionize the art of drink pouring. Using peristaltic pumps and the C programming language accompanied by mechanical libraries, I created a fully automated system that ensures precise pouring to the exact amount, allowing you to customize the percentage of each drink with accuracy and a beautiful front-end user interface. Incorporating calculations and visual sensors to detect the volume of each cup, guaranteeing a perfect pour and an intelligent emergency stop feature has been that instantly stops the pouring process if there is a risk of overflow.</p>
                 </div>
             </div>
-            <div className='rounded-xl h-auto w-full m-auto border-b shadow-xl shadow-gray-500 items-center justify-center fill p-3 text-gray-600'>
-                <p className='text-xl font-bold text-black'>Skills Used</p>
+            <div className='rounded-xl h-auto w-full m-auto border-b shadow-xl shadow-gray-800 items-center justify-center fill p-3 text-gray-200'>
+                <p className='text-xl font-bold text-white'>Skills Used</p>
                 <div className='px-2'>
                 <p>• Mechanical Integration</p>
                 <p>• Sensor Utilization</p>

@@ -29,7 +29,7 @@ const Projects = () => {
                 title='Autonomous Vehicle Research Real-time Embedded Software Group (ESG)' 
                 image={car} 
                 url='#work' 
-                descr='WIP Project with Dr. Sebastian Fischmeister and ESG'
+                descr='Research Project with Dr. Sebastian Fischmeister and ESG'
                 />
                 <ProjectItem 
                 title='Express-O' 
@@ -47,8 +47,8 @@ const Projects = () => {
             </div>
             <div className='p-4'></div>
             <Link href='/mainprojects'>
-            <div className='shadow-lg shadow-gray-400 rounded-sm p-4 max-w-[300px] mx-auto'>
-              <p className='text-slate-600 font-bold uppercase cursor-pointer justify-center flex'>View More Projects</p>
+            <div className='shadow-lg shadow-gray-700 rounded-sm p-4 max-w-[300px] mx-auto'>
+              <p className='text-slate-100 font-bold uppercase cursor-pointer justify-center flex'>View More Projects</p>
             </div>
             </Link>
         </div>

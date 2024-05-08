@@ -18,8 +18,8 @@ const toyml = () => {
                 <p>In collaboration with Toyota Canada, this Python-based classical machine learning solution utilized machine vision for car body frame detection and provided a possible solution to assist TMMC employees on the shop floor. Leveraging ML algorithms, the system identified car body frames, enhancing efficiency and precision in the production process. Additionally, the project incorporated analysis to extract insights about the car&apos;s details, enabling informed decision-making and process optimization.</p>
                 </div>
             </div>
-            <div className='rounded-xl h-auto w-full m-auto border-b shadow-xl shadow-gray-500 items-center justify-center fill p-3 text-gray-600'>
-                <p className='text-xl font-bold text-black'>Skills Used</p>
+            <div className='rounded-xl h-auto w-full m-auto border-b shadow-xl shadow-gray-800 items-center justify-center fill p-3 text-gray-200'>
+                <p className='text-xl font-bold text-white'>Skills Used</p>
                 <div className='px-2'>
                 <p>• Python</p>
                 <p>• Machine Vision</p>
