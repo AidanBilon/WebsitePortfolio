@@ -1,16 +1,16 @@
 import React from 'react';
 import Head from 'next/head';
 import SkillItem from './SkillItem';
-import web from '../public/Assets/IconSkill/Web.png';
+import web from '../public/Assets/mainlogo.png';
 import app from '../public/Assets/IconSkill/App.png';
-import ai from '../public/Assets/Skills/AIML.png';
+import ai from '../public/Assets/IconSkill/AIML.png';
 import lang from '../public/Assets/IconSkill/lang.png';
 
 const Skills = () => {
   return ( 
     <div id='skills' className='w-full'>
       <Head>
-        <title>Skills</title>
+        <title>Aidan Bilon</title>
         <meta name="description" content="Skill Section"></meta>
         <meta name="keywords" content="Aidan Bilon, Engineering Resume"></meta>
         <meta name="robots" content="index,follow"/>

@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full p-16'>
       <Head>
-        <title>Projects</title>
+        <title>Aidan Bilon</title>
         <meta name="description" content="Personal Projects"></meta>
         <meta name="keywords" content="Aidan Bilon, Engineering Resume"></meta>
         <meta name="robots" content="index,follow"/>

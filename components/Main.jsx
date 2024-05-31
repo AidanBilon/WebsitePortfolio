@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { IoIosArrowDown } from "react-icons/io";
 import Image from 'next/image';
 import mPage from '../public/Assets/fronttit.png';
-import mPageMobile from '../public/Assets/fronttit-mobile.png';
 
 const Main = () => {
   return (

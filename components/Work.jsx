@@ -9,7 +9,7 @@ const Work = () => {
     return (
       <div id='work' className='w-full min-h-screen flex items-center p-16'>
       <Head>
-        <title>Work Experience</title>
+        <title>Aidan Bilon</title>
         <meta name="description" content="Relevant Industry Experience"></meta>
         <meta name="keywords" content="Aidan Bilon, Engineering Resume"></meta>
         <meta name="robots" content="index,follow"/>
@@ -18,23 +18,26 @@ const Work = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-2xl font-extrabold'>Real-Time Embedded System Lab</p>
                 <p className='text-md font-bold'>Autonomous Robotics & Embedded Systems Lead Researcher/Developer</p>
-                <p className='py-2 text-sm font-medium'>• Created a fully autonomous, Bluetooth, path-finding, and obstacle avoidance ADAS vehicle, using object detection
-algorithms and reinforcement learning for edge detection, location, speed, and steering calculations that resulted in navigation
-of obstructions and moving obstacles while maintaining a safe state on a moving track.</p>
-                <p className='py-2 text-sm font-medium'>• Developed and implemented vehicle firmware, embedded systems, computer vision & object detection algorithms, cameras,
-sensors, electrical systems & circuits, and control systems for path planning & object detection using ROS2, C/C++, Python,
-Linux, HC-05, custom trained YOLO algorithms, L298N, NumPy zone detection calculations, OpenCV, PID
-controllers, and Digital Twins among other technologies.</p>
-                <p className='py-2 text-sm font-medium'>• Founded and directed the entire project team, working on every aspect of the system and constructed the vehicle hardware,
+                <p className='py-2 text-sm font-medium'>• Created a fully autonomous, Bluetooth, path-finding, and obstacle avoidance ADAS vehicle, controlling location, speed,
+edge detection, and steering while maintaining no safe state on a moving track to conduct research on.</p>
+                <p className='py-2 text-sm font-medium'>• Developed and implemented vehicle firmware, embedded systems, computer vision & object detection algorithms, sensors,
+electrical systems & circuits, and control systems for path planning & object detection using ROS2, C/C++, Python, Linux,
+HC-05, custom trained algorithms, and zone detection among other technologies.</p>
+                <p className='py-2 text-sm font-medium'>• Founded and directed the entire project team, working on each aspect of the system and engineered the vehicle hardware,
 electrical systems, track detection communication, and training of the object/car detection model.</p>
+            </div>
+            <div>
+                <video autoPlay loop muted className='w-full h-auto m-auto rounded-md items-center justify-center fill'>
+                    <source src="/Assets/20240530_102516.mp4" type="video/mp4" />
+                </video>
             </div>
             <div className='col-span-2'>
                 <p className='uppercase text-2xl font-extrabold'>WSP</p>
                 <p className='text-md font-bold'>Electrical Engineer</p>
-                <p className='py-2 text-sm font-medium'>• Designed and analyzed electrical systems for Sick Kids Hospitals and the Volkswagen Cell Gigafactory by applying circuit
-analysis and design of power distribution, control, and security systems.</p>
-                <p className='py-2 text-sm font-medium'>• Used Bluebeam Revu, AutoCAD, and Autodesk Revit for in-depth circuit studies of fault analysis and load studies,
-conducting coordination studies and site visits to collect data that offered insights for efficient schematic design.</p>
+                <p className='py-2 text-sm font-medium'>• Designed and analyzed electrical systems for the Volkswagen Cell Gigafactory and 90% of the Sick Kids Hospital phases
+during my term by applying circuit analysis, design of power distribution, control, and security systems.</p>
+                <p className='py-2 text-sm font-medium'>• Used Bluebeam Revu, AutoCAD, and Autodesk Revit for in-depth circuit studies of fault analysis, load studies,
+coordination conduction, and site visits to collect data that offered insights for efficient schematic design.</p>
             </div>
             <div className='w-full h-auto m-auto rounded-md items-center justify-center fill'>
                 <Image 
