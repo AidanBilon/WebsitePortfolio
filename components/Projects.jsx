@@ -5,11 +5,11 @@ import toyota1Img from '../public/Assets/Projects/toyota1.jpg';
 import toyota2Img from '../public/Assets/Projects/Toyota2.jpg';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
-import car from '../public/Assets/carvroom.jpeg';
+import car from '../public/Assets/camera.png';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full p-16'>
+    <div id='projects' className='w-full p-16 -mt-60'>
       <Head>
         <title>Aidan Bilon</title>
         <meta name="description" content="Personal Projects"></meta>

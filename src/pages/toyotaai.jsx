@@ -31,6 +31,11 @@ const ToyotaAI = () => {
                 <p>• Deep Learning</p>
                 <p>• Machine Vision</p>
                 </div>
+                <div>
+                <video autoPlay loop muted className='w-full h-auto m-auto rounded-md items-center justify-center fill'>
+                    <source src="/Assets/1684205299618.mp4" type="video/mp4" />
+                </video>
+              </div>
             </div>
         </div>
     </div>

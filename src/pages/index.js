@@ -6,6 +6,10 @@ import Projects from '../../components/Projects'
 import Skills from '../../components/Skills'
 import Contact from '../../components/Contact'
 import Work from '../../components/Work'
+import Rocket from '../../components/Rocket'
+import PWO from '../../components/PWO'
+import WSP from '../../components/WSP'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +26,9 @@ export default function Home() {
       <Main />
       <About />
       <Work />
+      <WSP />
+      <PWO />
+      <Rocket />
       <Projects />
       <Skills />
       <Contact />
