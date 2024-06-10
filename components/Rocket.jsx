@@ -5,7 +5,7 @@ import Rockets from '../public/Assets/rocketry.png';
 
 const Rocket = () => {
     return (
-      <div id='rocket' className='w-full min-h-screen flex items-center -mt-180x'>
+      <div id='rocket' className='w-full min-h-screen flex items-center -mt-180x p-16'>
       <Head>
         <title>Aidan Bilon</title>
         <meta name="description" content="Relevant Industry Experience"></meta>
@@ -21,7 +21,7 @@ const Rocket = () => {
                 <p className='py-2 text-sm font-medium'>• Programmed and optimized the PIC18F microcontroller in C to enhance the functionality and performance of rocketry systems
 on the actuator and propulsion board by writing efficient code.</p>
             </div>
-            <div className='w-full h-auto m-auto rounded-md items-center justify-center fill'>
+            <div className='w-full h-auto m-auto rounded-md items-center justify-center fill hidden sm:hidden md:block lg:block'>
                 <Image 
                 src={Rockets} 
                 alt='/' 

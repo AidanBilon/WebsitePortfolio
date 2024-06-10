@@ -5,7 +5,7 @@ import Pwos from '../public/Assets/pwo.png';
 
 const PWO = () => {
     return (
-      <div id='pwo' className='w-full min-h-screen flex items-center -mt-180x'>
+      <div id='pwo' className='w-full min-h-screen flex items-center -mt-180x p-16'>
       <Head>
         <title>Aidan Bilon</title>
         <meta name="description" content="Relevant Industry Experience"></meta>
@@ -21,7 +21,7 @@ of welds, eliminating error and improving robotic weld seam quality.</p>
                 <p className='py-2 text-sm font-medium'>• Streamlined documentation processes and introduced new procedural software that replaced handwritten forms with scanning
 of products, resulting in a significant reduction of processing time and a 6% increase in productivity.</p>
             </div>
-            <div className='w-full h-auto m-auto rounded-md items-center justify-center fill'>
+            <div className='w-full h-auto m-auto rounded-md items-center justify-center fill hidden sm:hidden md:block lg:block'>
                 <Image 
                 src={Pwos} 
                 alt='/' 

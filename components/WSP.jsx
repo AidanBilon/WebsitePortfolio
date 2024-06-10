@@ -5,7 +5,7 @@ import Wsps from '../public/Assets/WSP_logo.png';
 
 const WSP = () => {
     return (
-      <div id='wsp' className='w-full min-h-screen flex items-center -mt-180x'>
+      <div id='wsp' className='w-full min-h-screen flex items-center -mt-180x p-16'>
       <Head>
         <title>Aidan Bilon</title>
         <meta name="description" content="Relevant Industry Experience"></meta>
@@ -21,7 +21,7 @@ applying circuit analysis, design of power distribution, control, and security s
                 <p className='py-2 text-sm font-medium'>• Used Bluebeam Revu, AutoCAD, and Autodesk Revit for conducting in-depth circuit studies, including fault analysis and load
 studies, coordinating site visits to collect data that provided insights into efficient schematic design.</p>
             </div>
-            <div className='w-full h-auto m-auto rounded-md items-center justify-center fill'>
+            <div className='w-full h-auto m-auto rounded-md items-center justify-center fill hidden sm:hidden md:block lg:block'>
                 <Image 
                 src={Wsps} 
                 alt='/' 

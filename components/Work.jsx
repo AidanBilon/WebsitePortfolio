@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const Work = () => {
     return (
-      <div id='work' className='w-full min-h-screen flex items-center -mt-60'>
+      <div id='work' className='w-full min-h-screen flex items-center -mt-60 p-16 pt-20'>
       <Head>
         <title>Aidan Bilon</title>
         <meta name="description" content="Relevant Industry Experience"></meta>
@@ -22,7 +22,7 @@ algorithms and zone detection technologies.</p>
                 <p className='py-2 text-sm font-medium'>•Founded and directed the project team, worked on every aspect of vehicle hardware, electrical systems, track detection
 communication, and training of the object/car detection model.</p>
             </div>
-            <div>
+            <div className='hidden sm:hidden md:block lg:block'>
                 <video autoPlay loop muted className='w-full h-auto m-auto rounded-md items-center justify-center fill'>
                     <source src="/Assets/20240530_102516.mp4" type="video/mp4" />
                 </video>
