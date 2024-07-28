@@ -3,11 +3,13 @@ import ProjectItem from '../../components/ProjectItem'
 import toyota2Img from '../../public/Assets/Projects/mlaa.png'
 import SkillSection from '../../components/SkillSection'
 import yolo from '../../public/Assets/Projects/Icons/yolo.png'
-import robof from '../../public/Assets/Projects/Icons/robo.png'
+import pandas from '../../public/Assets/Skills/pandas.webp'
 import numpyy from '../../public/Assets/Projects/Icons/numpy.png'
 import openccv from '../../public/Assets/Projects/Icons/openc.png'
 import pyy from '../../public/Assets/Projects/Icons/pyth.png'
-import pych from '../../public/Assets/Projects/Icons/pych.png'
+import mat from '../../public/Assets/Skills/mat.png'
+import tensf from '../../public/Assets/Skills/tensf.png'
+import pytorch from '../../public/Assets/Skills/pytorch.webp'
 
 const mlai = () => {
   return (
@@ -17,7 +19,6 @@ const mlai = () => {
         <div>
             <p className='uppercase text-2xl font-bold p-2'>Machine Learning and Artificial Intelligence</p>
             <div className='text-xs py-4'>
-              <p className='p-4'>Being interested in the exciting realm of Machine Learning and Artificial Intelligence and as an engineering student passionate about cutting-edge technologies, I have delved into the captivating world of Machine Learning, Deep Learning, and Artificial intelligence. Utilizing Python, along with a set of libraries, APIs, and frameworks such as OpenCV, NumPy, YOLOv8, Roboflow, and PyCharm, I have honed my skills to develop innovative solutions. Notably, I have successfully completed two projects in collaboration with Toyota Canada.</p>
               <p className='uppercase text-xl font-bold p-8 hidden md:flex py-24'>Example Project Overview</p>
               <p className='text-xs pl-8 hidden md:flex '>A trained deep learning AI model developed in Python, utilizing OpenCV, NumPy, Matplotlib, and the Roboflow API. This solution to a previous problem that occurred on the shop floor at Toyota inspects sticker application on car body holes with remarkable accuracy. Training the model on diverse test images, it ensures its effectiveness in identifying open, closed, and partially closed cases, regardless of colour, lighting, or angular position. The innovative approach replaces manual inspection methods, providing a reliable and automated solution. Recognized as the most successful engineering product at Toyota, this project has garnered accolades from TMMC employees.</p>
             </div>
@@ -45,16 +46,24 @@ const mlai = () => {
               icon={numpyy} 
             />
             <SkillSection  
-              title='YOLOv8 PyTorch TXT' 
+              title='YOLO' 
               icon={yolo} 
             />
             <SkillSection  
-              title='Roboflow Training API' 
-              icon={robof}  
+              title='Pandas' 
+              icon={pandas}  
             />
             <SkillSection  
-              title='PyCharm IDE' 
-              icon={pych}  
+              title='MatPlotLib' 
+              icon={mat}  
+            />
+            <SkillSection  
+              title='TensorFlow' 
+              icon={tensf}  
+            />
+            <SkillSection  
+              title='PyTorch' 
+              icon={pytorch}  
             />
           </div>
         </div>

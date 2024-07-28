@@ -19,7 +19,6 @@ const webd = () => {
           <div>
             <p className='uppercase text-2xl font-bold p-2'>Website Development</p>
             <div className='text-xs py-4'>
-              <p className='p-4'>Immersing myself in the programmable art of crafting dynamic and engaging web experiences, I have armed myself with a diverse skill set proficiently working with a range of languages, libraries, APIs, and frameworks to bring websites to life. With expertise in JavaScript, HTML, CSS, React, Node.js, Next.js, and Firebase, I possess the necessary tools to build seamless and interactive web applications. In fact, this very website utilizes these components, along with the sleek design provided by Tailwind CSS.</p>
               <p className='uppercase text-xl font-bold p-8 hidden md:flex py-24'>Example Project Overview</p>
               <p className='text-xs pl-8 hidden md:flex '>A showcase of my skills and accomplishments in the world of software engineering. Built using the Next.js framework and the powerful Tailwind CSS, this website boasts a sleek and modern design. Leveraging the interactivity of JavaScript, along with the efficiency of React and Next.js, the website provides a seamless user experience with lazy-loaded images and smooth routing. Explore my portfolio, look into my resume, and enjoy the experience of this current page.</p>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import SkillItem from './SkillItem';
 import web from '../public/Assets/mainlogo.png';
-import app from '../public/Assets/IconSkill/App.png';
+import robot from '../public/Assets/IconSkill/robot.png';
 import ai from '../public/Assets/IconSkill/AIML.png';
 import lang from '../public/Assets/IconSkill/lang.png';
 
@@ -24,9 +24,9 @@ const Skills = () => {
                 url='/webd' 
                 />
                 <SkillItem  
-                title='IOS/Mobile Development' 
-                icon={app} 
-                url='/ios' 
+                title='Robotic/Software Systems' 
+                icon={robot} 
+                url='/robot' 
                 />
                 <SkillItem  
                 title='Machine Learning and Artificial Intelligence' 
