@@ -14,12 +14,13 @@ const Main = () => {
                 <source src="/Assets/backG.mp4" type="video/mp4" />
             </video>
         </div>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 z-10 relative flex flex-col items-center justify-center'>
-            <div className='lg:hidden w-full flex flex-col items-center justify-center text-4xl'>
-                <p className='pt-12 p-6'>Hi, I&apos;m <span className='text-light-blue-400 font-extrabold'>Aidan Bilon</span></p>
-                <p className='p-6'>An Engineering Student at the University of Waterloo</p>
-                <p className='p-6'>Welcome to my portfolio</p>
-            </div>
+        <div className='lg:hidden absolute top-0 left-0 w-full h-full z-0 bg-[url(/Assets/mainbg.png)] bg-cover bg-center'></div>
+      <div className='max-w-[1240px] w-full h-full mx-auto p-2 z-10 relative flex flex-col items-center justify-center'>
+        <div className='lg:hidden w-full flex flex-col items-center justify-center text-4xl'>
+          <p className='pt-12 p-6 font-extrabold'>Hi, I&apos;m <span className='text-light-blue-400 font-extrabold'>Aidan Bilon</span></p>
+          <p className='p-6 font-extrabold'>An Engineering Student at the University of Waterloo</p>
+          <p className='p-6 font-extrabold'>Welcome to my portfolio</p>
+        </div>
             <div className='hidden lg:flex justify-center w-full pt-12'>
                 <Image
                 src={mPage}

@@ -38,7 +38,7 @@ const Navbar = () => {
     <li onClick={() => scrollToSection('work')} className='ml-10 text-sm uppercase hover:border-b cursor-pointer'>Work</li>
 
     return (
-        <div className={`fixed w-full h-20 z-[100] transition-all duration-300 ${navbarVisible ? 'bg-[#1f2937] shadow-xl' : 'bg-transparent'}`}>
+        <div className={`fixed w-full h-20 z-[100] transition-all duration-300 ${navbarVisible ? 'bg-[#222222] shadow-xl' : 'bg-transparent'}`}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/' passHref>
                     <div className='flex items-center cursor-pointer'>
@@ -79,7 +79,7 @@ const Navbar = () => {
                 </div>
             </div>
     <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-grey/70' : ''}>
-        <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#1f2937] p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
+        <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#222222] p-10 ease-in duration-500' : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
             <div>
             <div className='flex w-full items-center justify-between'>
                 <Link href='/'>
