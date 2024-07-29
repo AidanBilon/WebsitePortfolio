@@ -9,7 +9,7 @@ import car from '../public/Assets/camera.png';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full p-16 -mt-60'>
+    <div id='projects' className='w-full p-16 -mt-60 bg-project bg-cover bg-center'>
       <Head>
         <title>Aidan Bilon</title>
         <meta name="description" content="Personal Projects"></meta>

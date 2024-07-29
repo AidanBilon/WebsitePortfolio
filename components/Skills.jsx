@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
 import SkillItem from './SkillItem';
-import web from '../public/Assets/mainlogo.png';
-import robot from '../public/Assets/IconSkill/robot.png';
-import ai from '../public/Assets/IconSkill/AIML.png';
+import hard from '../public/Assets/IconSkill/mcuhard.png';
+import robot from '../public/Assets/IconSkill/robots.png';
+import ai from '../public/Assets/IconSkill/mlai.png';
 import lang from '../public/Assets/IconSkill/lang.png';
 
 const Skills = () => {
@@ -19,9 +19,9 @@ const Skills = () => {
             <p className='uppercase text-2xl font-extrabold pb-6'>Skills</p>
             <div className='grid md:grid-cols-2 gap-8'>
                 <SkillItem 
-                title='Website Development' 
-                icon= {web}
-                url='/webd' 
+                title='Hardware and Electrical' 
+                icon= {hard}
+                url='/hard' 
                 />
                 <SkillItem  
                 title='Robotic/Software Systems' 

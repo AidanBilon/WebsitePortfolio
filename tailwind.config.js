@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: theme => ({
         'experience': "url('/Assets/experiencebg.png')",
         'about': "url('/Assets/aboutbg.png')",
+        'project': "url('/Assets/projectsbg.png')",
       }),
       spacing: {
         '72': '18rem',
