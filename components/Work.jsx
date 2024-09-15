@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Pwos from '../public/Assets/pwo.png';
 import Wsps from '../public/Assets/WSP_logo.png';
 import Rockets from '../public/Assets/rocketry.png';
+import Upsides from '../public/Assets/upside.jpeg';
 
 const Work = () => {
     return (
@@ -15,6 +16,33 @@ const Work = () => {
                 <meta name="robots" content="index,follow"/>
             </Head>
             <div className='max-w-[1200px] w-full m-auto'>
+                {/* Upside Robotics */}
+                <div className='w-full flex flex-col py-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+                        <div className='md:col-span-2'>
+                            <p className='uppercase text-2xl font-extrabold'>Upside Robotics</p>
+                            <p className='text-md font-bold'>Autonomous Robotics Engineering Intern</p>
+                            <p className='py-1 text-sm font-medium'>• Worked on the development of software, electrical, and mechanical systems for autonomous farming robots, with direct
+                            ownership of key features and systems on the autonomy and electrical components, overseeing the life cycle of these features,
+                            from concept through to production, ensuring successful deployment in live environments.</p>
+                            <p className='py-1 text-sm font-medium'>• Designed and implemented software for robotic autonomy and drive systems, contributing to the integration of advanced
+                            perception, navigation, and decision-making algorithms, utilizing C++, Python, ROS, and CUDA with NVIDIA Jetson
+                            to enhance the robots&apos; operational efficiency.</p>
+                            <p className='py-1 text-sm font-medium'>• +Supported field trials of robotic systems, providing on-site troubleshooting, testing, and data analysis to optimize performance,
+                            leveraging computer vision and data augmentation to reduce the impact of diseases and pests, refining robotic systems
+                            based on previous sensor trial data.</p>
+                        </div>
+                        <div className='hidden md:flex items-center justify-center'>
+                            <Image 
+                                src={Upsides} 
+                                alt='Upside Robotics' 
+                                width={100} 
+                                height={100}
+                                className='rounded-md'
+                            /> 
+                        </div>
+                    </div>
+                </div>
                 {/* Real-Time Embedded System Lab */}
                 <div className='w-full flex flex-col py-8'>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
@@ -30,7 +58,7 @@ and matrix zone detection methodology.</p>
                             track detection communication, and training of the object/car detection model.</p>
                         </div>
                         <div className='hidden md:flex items-center justify-center'>
-                            <video autoPlay loop muted className='w-full h-auto m-auto rounded-md'>
+                            <video autoPlay loop muted className='w-full h-auto m-auto rounded-md pl-6'>
                                 <source src="/Assets/20240530_102516.mp4" type="video/mp4" />
                             </video>
                         </div>
@@ -52,8 +80,8 @@ and matrix zone detection methodology.</p>
                             <Image 
                                 src={Pwos} 
                                 alt='PWO Group' 
-                                width={300} 
-                                height={300}
+                                width={200} 
+                                height={200}
                                 className='rounded-md'
                             /> 
                         </div>
@@ -75,8 +103,8 @@ and matrix zone detection methodology.</p>
                             <Image 
                                 src={Wsps} 
                                 alt='WSP Logo' 
-                                width={300} 
-                                height={300}
+                                width={200} 
+                                height={200}
                                 className='rounded-md'
                             /> 
                         </div>
@@ -96,8 +124,8 @@ and matrix zone detection methodology.</p>
                             <Image 
                                 src={Rockets} 
                                 alt='Waterloo Rocketry' 
-                                width={200} 
-                                height={200}
+                                width={100} 
+                                height={100}
                                 className='rounded-md'
                             /> 
                         </div>
