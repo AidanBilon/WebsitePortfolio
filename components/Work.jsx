@@ -26,9 +26,8 @@ const Work = () => {
                             ownership of key features and systems on the autonomy and electrical components, overseeing the life cycle of these features,
                             from concept through to production, ensuring successful deployment in live environments.</p>
                             <p className='py-1 text-sm font-medium'>• Designed and implemented software for robotic autonomy and drive systems, contributing to the integration of advanced
-                            perception, navigation, and decision-making algorithms, utilizing C++, Python, ROS, and CUDA with NVIDIA Jetson
-                            to enhance the robots&apos; operational efficiency.</p>
-                            <p className='py-1 text-sm font-medium'>• +Supported field trials of robotic systems, providing on-site troubleshooting, testing, and data analysis to optimize performance,
+                            perception, navigation, and decision-making algorithms, utilizing C++, Python, and ROS to enhance the robots&apos; operational efficiency.</p>
+                            <p className='py-1 text-sm font-medium'>• Supported field trials of robotic systems, providing on-site troubleshooting, testing, and data analysis to optimize performance,
                             leveraging computer vision and data augmentation to reduce the impact of diseases and pests, refining robotic systems
                             based on previous sensor trial data.</p>
                         </div>
