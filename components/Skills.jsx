@@ -19,17 +19,17 @@ const Skills = () => {
             <p className='uppercase text-2xl font-extrabold pb-6'>Skills</p>
             <div className='grid md:grid-cols-2 gap-8'>
                 <SkillItem 
-                title='Hardware and Electrical' 
+                title='Hardware and Design' 
                 icon= {hard}
                 url='/hard' 
                 />
                 <SkillItem  
-                title='Robotic/Software Systems' 
+                title='Software Systems' 
                 icon={robot} 
                 url='/robot' 
                 />
                 <SkillItem  
-                title='Machine Learning and Artificial Intelligence' 
+                title='ML/AI' 
                 icon={ai} 
                 url='/mlai' 
                 />

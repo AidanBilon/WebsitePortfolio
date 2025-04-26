@@ -47,14 +47,14 @@ const robot = () => {
               title='Git' 
               icon={git}  
             />
-            <SkillSection  
+            {/* <SkillSection  
               title='I2C' 
               icon={i2c}  
             />
             <SkillSection  
               title='RTOS' 
               icon={rtos}  
-            /> 
+            />  */}
           </div>
         </div>
       </div>

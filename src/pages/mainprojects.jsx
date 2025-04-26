@@ -2,7 +2,7 @@ import React from 'react';
 import expressImg from '../../public/Assets/Projects/express.jpg';
 import toyota1Img from '../../public/Assets/Projects/toyota1.jpg';
 import toyota2Img from '../../public/Assets/Projects/Toyota2.jpg';
-import car from '../../public/Assets/carvroom.jpeg';
+import car from '../../public/Assets/camera.png';
 import ProjectItem from '../../components/ProjectItem';
 
 const mainprojects = () => {

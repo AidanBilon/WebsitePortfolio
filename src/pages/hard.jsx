@@ -33,10 +33,10 @@ const hard = () => {
             />
           </div>
           <div className='col-span-2 py-16 grid md:grid-cols-2 gap-8'>
-            <SkillSection  
+            {/* <SkillSection  
               title='NVIDIA Jetson' 
               icon={nvidia} 
-            />
+            /> */}
             <SkillSection  
               title='Arduino Uno and Nano' 
               icon={ard}  
