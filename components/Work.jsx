@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Pwos from '../public/Assets/pwo.png';
 import Wsps from '../public/Assets/WSP_logo.png';
 import Upsides from '../public/Assets/upside.jpeg';
+import Dayluns from '../public/Assets/daylun.webp';
 
 const Work = () => {
     return (
@@ -15,6 +16,27 @@ const Work = () => {
                 <meta name="robots" content="index,follow"/>
             </Head>
             <div className='max-w-[1200px] w-full m-auto'>
+                {/* Daylun */}
+                <div className='w-full flex flex-col py-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+                        <div className='md:col-span-2'>
+                            <p className='uppercase text-2xl font-extrabold'>Daylun</p>
+                            <p className='text-md font-bold text-[#1C74BC]'>Robotics Systems Engineering Intern</p>
+                            <p className='py-1 text-sm font-medium'>• Built and deployed an autonomous factory digital twin with Isaac Sim, ROS2, Docker, OpenUSD, enabling simulation of AMRs, robotic arms, and CNC machinery; reduced prototyping costs and accelerated test cycles.</p>
+                            <p className='py-1 text-sm font-medium'>• Developed end-to-end Software-in-the-Loop (SIL) simulation integrating LiDAR and RGB sensors with real-time visualization in RViz; enabled rapid perception validation, remote teleoperation, and efficient modular panel routing coordination without physical downtime.</p>
+                            <p className='py-1 text-sm font-medium'>• Engineered scalable synthetic data pipelines with Isaac Lab, Python scripting, and simulated sensors; utilized reinforcement learning models for manufacturing efficiency.</p>
+                        </div>
+                        <div className='hidden md:flex items-center justify-center'>
+                            <Image 
+                                src={Dayluns} 
+                                alt='Daylun' 
+                                width={150} 
+                                height={150}
+                                className='rounded-md'
+                            /> 
+                        </div>
+                    </div>
+                </div>
                 {/* Upside Robotics */}
                 <div className='w-full flex flex-col py-4'>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
@@ -44,7 +66,7 @@ const Work = () => {
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
                         <div className='md:col-span-2'>
                             <p className='uppercase text-2xl font-extrabold'>Real-Time Embedded System Lab</p>
-                            <p className='text-md font-bold text-[#5c3992]'>Autonomous Engineering Researcher</p>
+                            <p className='text-md font-bold text-[#5c3992]'>Robotics Software Engineering Researcher</p>
                             <p className='py-1 text-sm font-medium'>• Led the development of a fully autonomous vehicle 2 using Bluetooth, adaptive path-planning, obstacle avoidance, and
                             real-time navigation, advancing novel research in ADAS driving systems.</p>
                             <p className='py-1 text-sm font-medium'>• Successfully applied computer vision models and embedded firmware within a containerized Ubuntu Linux ROS2
@@ -76,8 +98,8 @@ const Work = () => {
                             <Image 
                                 src={Pwos} 
                                 alt='PWO Group' 
-                                width={200} 
-                                height={200}
+                                width={150} 
+                                height={150}
                                 className='rounded-md'
                             /> 
                         </div>
@@ -97,8 +119,8 @@ const Work = () => {
                             <Image 
                                 src={Wsps} 
                                 alt='WSP Logo' 
-                                width={200} 
-                                height={200}
+                                width={150} 
+                                height={150}
                                 className='rounded-md'
                             /> 
                         </div>
