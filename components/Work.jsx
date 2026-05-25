@@ -43,9 +43,8 @@ const Work = () => {
                         <div className='md:col-span-2'>
                             <p className='uppercase text-2xl font-extrabold'>Tesla</p>
                             <p className='text-md font-bold text-[#e82126]'>Software Test Engineering Intern</p>
-                            <p className='py-1 text-sm font-medium'>• Built and deployed an autonomous factory digital twin with Isaac Sim, ROS2, Docker, OpenUSD, enabling simulation of AMRs, robotic arms, and CNC machinery; reduced prototyping costs and accelerated test cycles.</p>
-                            <p className='py-1 text-sm font-medium'>• Developed end-to-end Software-in-the-Loop (SIL) simulation integrating LiDAR and RGB sensors with real-time visualization in RViz; enabled rapid perception validation, remote teleoperation, and efficient modular panel routing coordination without physical downtime.</p>
-                            <p className='py-1 text-sm font-medium'>• Engineered scalable synthetic data pipelines with Isaac Lab, Python scripting, and simulated sensors; utilized reinforcement learning models for manufacturing efficiency.</p>
+                            <p className='py-1 text-sm font-medium'>• Engineered 5 end-to-end product reliability testers, accommodating multiple hardware revisions by architecting highly abstracted, reusable frameworks and developing custom hardware drivers in Go.</p>
+                            <p className='py-1 text-sm font-medium'>• Decreased codebase complexity and standardized release workflows, establishing centralized version control, by building automated CI/CD system actions that enabled direct repository pulling.</p>
                         </div>
                         <div className='hidden md:flex items-center justify-center'>
                             <Image 
