@@ -1,10 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import Pwos from '../public/Assets/pwo.png';
-import Wsps from '../public/Assets/WSP_logo.png';
-import Upsides from '../public/Assets/upside.jpeg';
-import Dayluns from '../public/Assets/daylun.webp';
+import Pwos from '../public/Assets/workplaces/pwo.png';
+import Wsps from '../public/Assets/workplaces/WSP_logo.png';
+import Upsides from '../public/Assets/workplaces/upside.jpeg';
+import Dayluns from '../public/Assets/workplaces/daylun.webp';
+import Tesla from '../public/Assets/workplaces/tesla.png';
+import NVIDIA from '../public/Assets/workplaces/nvidia.png';
 
 const Work = () => {
     return (
@@ -16,6 +18,46 @@ const Work = () => {
                 <meta name="robots" content="index,follow"/>
             </Head>
             <div className='max-w-[1200px] w-full m-auto'>
+                {/* NVIDIA */}
+                <div className='w-full flex flex-col py-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+                        <div className='md:col-span-2'>
+                            <p className='uppercase text-2xl font-extrabold'>NVIDIA</p>
+                            <p className='text-md font-bold text-[#74b71a]'>Software Integration Engineering Intern</p>
+                            <p className='py-1 text-sm font-medium'>Incoming Fall 2026.</p>
+                        </div>
+                        <div className='hidden md:flex items-center justify-center'>
+                            <Image 
+                                src={NVIDIA} 
+                                alt='NVIDIA' 
+                                width={100} 
+                                height={100}
+                                className='rounded-md'
+                            /> 
+                        </div>
+                    </div>
+                </div>
+                {/* Tesla */}
+                <div className='w-full flex flex-col py-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+                        <div className='md:col-span-2'>
+                            <p className='uppercase text-2xl font-extrabold'>Tesla</p>
+                            <p className='text-md font-bold text-[#e82126]'>Software Test Engineering Intern</p>
+                            <p className='py-1 text-sm font-medium'>• Built and deployed an autonomous factory digital twin with Isaac Sim, ROS2, Docker, OpenUSD, enabling simulation of AMRs, robotic arms, and CNC machinery; reduced prototyping costs and accelerated test cycles.</p>
+                            <p className='py-1 text-sm font-medium'>• Developed end-to-end Software-in-the-Loop (SIL) simulation integrating LiDAR and RGB sensors with real-time visualization in RViz; enabled rapid perception validation, remote teleoperation, and efficient modular panel routing coordination without physical downtime.</p>
+                            <p className='py-1 text-sm font-medium'>• Engineered scalable synthetic data pipelines with Isaac Lab, Python scripting, and simulated sensors; utilized reinforcement learning models for manufacturing efficiency.</p>
+                        </div>
+                        <div className='hidden md:flex items-center justify-center'>
+                            <Image 
+                                src={Tesla} 
+                                alt='Tesla' 
+                                width={100} 
+                                height={100}
+                                className='rounded-md'
+                            /> 
+                        </div>
+                    </div>
+                </div>
                 {/* Daylun */}
                 <div className='w-full flex flex-col py-4'>
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
